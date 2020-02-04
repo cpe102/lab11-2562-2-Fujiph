@@ -15,9 +15,10 @@ int main(){
 	return 0;
 }
 
-//Write function definition here
-/*
-??? mySwap (???){
 
+void mySwap ( int &x , int &y ){
+	int temp = x;
+	x = y;
+	y = temp;
+	
 }
-*/
